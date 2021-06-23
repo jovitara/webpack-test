@@ -12,6 +12,25 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
 
 @import "./sections/bit-slider";
 
+.projects-slider-bar {
+  background-image: url(../images/design/mitech-home-infotechno-case-study-section-bg.png);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  min-width: 500px;
+  .multiple-items {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .projects-image-box {
+    width: 30%;
+    margin-right: 15px;
+    background: #fff;
+  }
+}
+
 .animated-card {
   .card-body {
     padding-bottom: 40px;
@@ -35,10 +54,10 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
   bottom: -30px;
   transition: all 3000ms linear;
   &:hover {
-      cursor: pointer;
-      background-color: red;
-      color: black;
-      transform: scale(2);
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    transform: scale(2);
   }
   i {
     color: white;
